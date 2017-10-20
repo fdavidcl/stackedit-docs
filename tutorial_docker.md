@@ -1,3 +1,5 @@
+**WIP**
+
 # Uso de Docker en el servidor `simidat-apps`
 
 ## Instalación de Docker en local
@@ -61,5 +63,5 @@ docker push user/container:tag
 docker run stuff
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA4NTczNThdfQ==
+eyJoaXN0b3J5IjpbLTEzODYzNzc5NTRdfQ==
 -->
