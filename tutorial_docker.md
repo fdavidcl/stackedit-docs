@@ -31,7 +31,16 @@ EXPOSE 80
 CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-P", "80"]
 ~~~
 
+~~~bash
+docker build
+docker run
+~~~
+
 ## Carga del contenedor a Docker Cloud
+
+~~~bash
+docker push user/container:tag
+~~~
 
 ## Instalación en `simidat-apps`
 
@@ -52,5 +61,5 @@ CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-P", "80"]
 docker run stuff
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3NTM2MzQ4XX0=
+eyJoaXN0b3J5IjpbLTE2ODA4NTczNThdfQ==
 -->
