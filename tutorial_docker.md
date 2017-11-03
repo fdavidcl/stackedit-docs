@@ -49,7 +49,7 @@ docker push user/container:latest
 
 ### Acceso al daemon Docker
 
-Pide al administrador del servidor que añada tu usuario al grupo `docker` del servidor.
+Pide al administrador del servidor que añada tu usuario al grupo `docker` del servidor. Consulta también en qué puerto del servidor puedes colo
 
 ### Creación de un *virtual host*
 
@@ -65,7 +65,7 @@ Pide al administrador del servidor que añada tu usuario al grupo `docker` del s
 ### Instalación del contenedor
 
 ~~~bash
-docker run -p 8080:80 user/container
+docker run -p 6001:80 user/container
 ~~~
 
 ### Actualizaciones
@@ -74,8 +74,8 @@ docker run -p 8080:80 user/container
 docker pull user/container
 docker ps # consulta el id de tu contenedor
 docker stop <id>
-docker run 
+docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjUwMDQ5OTRdfQ==
+eyJoaXN0b3J5IjpbMTE2MTA2OTQ0Nl19
 -->
