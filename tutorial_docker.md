@@ -34,14 +34,15 @@ CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-P", "80"]
 ~~~
 
 ~~~bash
-docker build
-docker run
+docker build -t mi_container .
+docker run -p 8080:80 mi_container
 ~~~
 
 ## Carga del contenedor a Docker Cloud
 
 ~~~bash
-docker push user/container:tag
+docker build -t user/container:latest .
+docker push user/container:latest
 ~~~
 
 ## Instalación en `simidat-apps`
@@ -63,5 +64,5 @@ docker push user/container:tag
 docker run stuff
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYzNzc5NTRdfQ==
+eyJoaXN0b3J5IjpbODAyMTU0MTM4XX0=
 -->
