@@ -47,6 +47,10 @@ docker push user/container:latest
 
 ## Instalación en `simidat-apps`
 
+### Acceso al daemon Docker
+
+Pide al administrador del servidor que añada tu usuario al grupo `docker` 
+
 ### Creación de un *virtual host*
 
 ~~~xml
@@ -67,8 +71,9 @@ docker run -p 8080:80 user/container
 ### Actualizaciones
 
 ~~~bash
+docker pull user/container
 
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYwMjI1MF19
+eyJoaXN0b3J5IjpbMTM1Njg1NzAwMV19
 -->
