@@ -61,8 +61,10 @@ docker push user/container:latest
 ### Instalación del contenedor
 
 ~~~bash
-docker run stuff
+docker run -p 8080:80 user/container
 ~~~
+
+### Actualizacione
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyMTU0MTM4XX0=
+eyJoaXN0b3J5IjpbLTE0Mjg3ODY5NDVdfQ==
 -->
