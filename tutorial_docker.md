@@ -66,7 +66,7 @@ docker run -p 8080:80 user/container
 
 ### Actualizaciones
 
-~~~
+~~~bash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzE5MzA5ODRdfQ==
+eyJoaXN0b3J5IjpbLTE1Njk0MTI3OTZdfQ==
 -->
