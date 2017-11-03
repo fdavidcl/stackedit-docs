@@ -49,7 +49,7 @@ docker push user/container:latest
 
 ### Acceso al daemon Docker
 
-Pide al administrador del servidor que añada tu usuario al grupo `docker` del servidor. Consulta también en qué puerto del servidor puedes colocar su
+Pide al administrador del servidor que añada tu usuario al grupo `docker` del servidor. Consulta también en qué puerto del servidor puedes colocar tu re
 
 ### Creación de un *virtual host*
 
@@ -77,5 +77,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE0OTE1NjBdfQ==
+eyJoaXN0b3J5IjpbMTY5MDIwMjU0OF19
 -->
