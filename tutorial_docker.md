@@ -64,7 +64,8 @@ docker push user/container:latest
 docker run -p 8080:80 user/container
 ~~~
 
-### Actualizacione
+### Actualizaciones
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg3ODY5NDVdfQ==
+eyJoaXN0b3J5IjpbOTQ3OTAyNTQ0XX0=
 -->
