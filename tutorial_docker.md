@@ -49,7 +49,7 @@ docker push user/container:latest
 
 ### Acceso al daemon Docker
 
-Pide al administrador del servidor que añada tu usuario al grupo `docker` del servidor. Consulta también en qué puerto del servidor puedes colocar tu servicio
+Pide al administrador del servidor que añada tu usuario al grupo `docker` del servidor. Consulta también en qué puerto del servidor puedes colocar tu servicio.
 
 ### Creación de un *virtual host*
 
@@ -57,8 +57,8 @@ Pide al administrador del servidor que añada tu usuario al grupo `docker` del s
 <VirtualHost *:80>
   ServerName cometa.ml
   ServerAlias cometa.ml
-  ProxyPass "/"  "http://localhost:4040/"
-  ProxyPassReverse "/"  "http://localhost:4040/"
+  ProxyPass "/"  "http://localhost:6001/"
+  ProxyPassReverse "/"  "http://localhost:6001/"
 </VirtualHost>
 ~~~
 
@@ -77,5 +77,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTAwMDMzNV19
+eyJoaXN0b3J5IjpbMTgzMTE1NzQ2N119
 -->
