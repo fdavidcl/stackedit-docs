@@ -10,7 +10,7 @@ I use [fish](https://fishshell.com/) as my default shell, more for its convenien
 
 ## Desktop
 
-I use i3 as my main window manager -- GNOME as a backup, just in case everything br. i3 is a tiling window manager, which means windows are generally not allowed to overlap each other. This makes organizing your desktop way easier than using floating windows, but takes a while to learn.
+I use i3 as my main window manager -- GNOME as a backup, just in case everything breaks. i3 is a tiling window manager, which means windows are generally not allowed to overlap each other. This makes organizing your desktop way easier than using floating windows, but takes a while to learn.
 
 One cool thing about simple window managers such as i3 is that you get to extend them via whatever programs you want. If you want a futuristic information display with all the readings from your hardware, you can use conky! Whether you want a full-fledged panel and app launcher or a minimalistic bar, you have the options! This way, you can put together the pieces you want in order to make a perfect desktop experience, tailored just for you.
 
@@ -45,5 +45,5 @@ I have defined keyboard bindings that allow me to quickly launch a terminal wind
 
 - brightside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTQ5MTY4XX0=
+eyJoaXN0b3J5IjpbLTE2MjI1MjkyOTJdfQ==
 -->
