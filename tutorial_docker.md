@@ -63,7 +63,7 @@ Pide al administrador del servidor que añada tu usuario al grupo `docker` del s
 
 ### Creación de un *virtual host*
 
-En el puerto 80 de `simidat-apps` se ejecuta un servidor web Apache. Si tu servicio incluye una página web, deberás configurar un *virtual host* para que Apache redirija las peticiones a tu servicio (escoge para ello un puerto que no esté en uso). Por ejemplo, el siguiente *virtual host* redirige 
+En el puerto 80 de `simidat-apps` se ejecuta un servidor web Apache. Si tu servicio incluye una página web, deberás configurar un *virtual host* para que Apache redirija las peticiones a tu servicio (escoge para ello un puerto que no esté en uso). Por ejemplo, el siguiente *virtual host* redirige las peticiones que lleguen con el dominio `cometa.ml` al puerto 6001:
 
 ~~~xml
 <VirtualHost *:80>
@@ -75,6 +75,8 @@ En el puerto 80 de `simidat-apps` se ejecuta un servidor web Apache. Si tu servi
 ~~~
 
 ### Instalación del contenedor
+
+Ejecuta el contenedor con el identificador que le asignaste en D
 
 ~~~bash
 docker run -p 6001:80 user/container
@@ -89,5 +91,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTU4ODMwNCwxODMxMTU3NDY3XX0=
+eyJoaXN0b3J5IjpbLTE5MTk3NzgwNjYsMTgzMTE1NzQ2N119
 -->
