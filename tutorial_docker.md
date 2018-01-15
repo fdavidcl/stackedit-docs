@@ -22,7 +22,7 @@ $ usermod -aG docker $USER
 
 ## Creación de nuestro servicio en un contenedor
 
-
+Los servicios que se ejecutan en un contenedor Docker vienen determinados por el *Dockerfile*. Generalmente estos consisten en una imagen básica (la instalación 
 
 ~~~Dockerfile
 # Use an official Ruby runtime as a parent image
@@ -79,5 +79,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgzMDgwMywxODMxMTU3NDY3XX0=
+eyJoaXN0b3J5IjpbNjIyMDA0MjkxLDE4MzExNTc0NjddfQ==
 -->
