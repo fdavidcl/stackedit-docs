@@ -82,7 +82,7 @@ Ejecuta el contenedor con el identificador que le asignaste en Docker Hub:
 docker run -p 6001:80 user/container
 ~~~
 
-Para que se ejecute al arranque, será necesario un script de initrd:
+Para que se ejecute al arranque, será necesario un script de initrd (:
 
 ~~~bash
 #!/bin/sh
@@ -98,5 +98,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA1MTU0NzAsMTgzMTE1NzQ2N119
+eyJoaXN0b3J5IjpbLTczODQyMjk5OCwxODMxMTU3NDY3XX0=
 -->
