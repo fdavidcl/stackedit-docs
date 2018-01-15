@@ -22,6 +22,8 @@ $ usermod -aG docker $USER
 
 ## Creación de nuestro servicio en un contenedor
 
+
+
 ~~~Dockerfile
 # Use an official Ruby runtime as a parent image
 FROM ruby:2.4.2-onbuild
@@ -77,5 +79,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0NDQ0MTEzLDE4MzExNTc0NjddfQ==
+eyJoaXN0b3J5IjpbLTE3NjgzMDgwMywxODMxMTU3NDY3XX0=
 -->
