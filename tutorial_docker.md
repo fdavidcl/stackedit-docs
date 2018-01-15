@@ -39,7 +39,7 @@ CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-P", "80"]
 
 En [Docker Hub](https://hub.docker.com/explore/) podéis encontrar una lista de imágenes oficiales de las que partir. En GitHub se pueden encontrar Dockerfiles personalizados para lanzar todo tipo de servicios.
 
-
+Una vez escrito el Dockerfile, nos situamos con la terminal en el directorio donde se ha creado y 
 
 ~~~bash
 docker build -t mi_container .
@@ -85,5 +85,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc3NDIyMjQsMTgzMTE1NzQ2N119
+eyJoaXN0b3J5IjpbMjY1NzUyMDAxLDE4MzExNTc0NjddfQ==
 -->
