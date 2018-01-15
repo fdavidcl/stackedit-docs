@@ -63,7 +63,7 @@ Pide al administrador del servidor que añada tu usuario al grupo `docker` del s
 
 ### Creación de un *virtual host*
 
-En el puerto 80 de `simidat-apps` se ejecuta un servidor web Apache. Si tu servicio incluye una página web, deberás configurar un 
+En el puerto 80 de `simidat-apps` se ejecuta un servidor web Apache. Si tu servicio incluye una página web, deberás configurar un *virtual host* para que Apache redirija 
 
 ~~~xml
 <VirtualHost *:80>
@@ -89,5 +89,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjIxOTA1MiwxODMxMTU3NDY3XX0=
+eyJoaXN0b3J5IjpbMTIwOTg1ODE0LDE4MzExNTc0NjddfQ==
 -->
