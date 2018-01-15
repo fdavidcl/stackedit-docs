@@ -24,6 +24,8 @@ $ usermod -aG docker $USER
 
 Los servicios que se ejecutan en un contenedor Docker vienen determinados por el *Dockerfile*. Generalmente estos consisten en una imagen básica (una distro de Linux o una plataforma de un lenguaje), la instalación de paquetes necesarios, y la ejecución de un comando.
 
+Por ejemplo, el siguiente sería un Dockerfile útil para servir un blog creado con Jekyll (sobre Ruby):
+
 ~~~Dockerfile
 # Use an official Ruby runtime as a parent image
 FROM ruby:2.4.2-onbuild
@@ -34,6 +36,8 @@ EXPOSE 80
 # Run Jekyll when the container launches
 CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-P", "80"]
 ~~~
+
+
 
 ~~~bash
 docker build -t mi_container .
@@ -79,5 +83,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDQyMDc5OSwxODMxMTU3NDY3XX0=
+eyJoaXN0b3J5IjpbMjIzMTkxMjMsMTgzMTE1NzQ2N119
 -->
