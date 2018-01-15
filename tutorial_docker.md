@@ -44,7 +44,7 @@ docker build -t mi_container .
 docker run -p 8080:80 mi_container
 ~~~
 
-La opción `-p` permite redirigir el puerto 8080 del anfitrión al 80 del contenedo
+La opción `-p` permite redirigir el puerto 8080 del anfitrión al 80 del contenedor. As
 
 ## Carga del contenedor a Docker Cloud
 
@@ -87,5 +87,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyNjg3OTkwLDE4MzExNTc0NjddfQ==
+eyJoaXN0b3J5IjpbLTUxODcxMzMwLDE4MzExNTc0NjddfQ==
 -->
