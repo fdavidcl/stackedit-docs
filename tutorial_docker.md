@@ -63,6 +63,8 @@ Pide al administrador del servidor que añada tu usuario al grupo `docker` del s
 
 ### Creación de un *virtual host*
 
+En el puerto 80 de `simidat-apps` se ejecuta un servidor web Apache. Si tu servicio incluye una p
+
 ~~~xml
 <VirtualHost *:80>
   ServerName cometa.ml
@@ -87,5 +89,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTUyNTczNywxODMxMTU3NDY3XX0=
+eyJoaXN0b3J5IjpbLTEwNzA1NTg1MjcsMTgzMTE1NzQ2N119
 -->
