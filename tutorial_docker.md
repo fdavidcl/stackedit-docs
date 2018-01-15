@@ -76,7 +76,7 @@ En el puerto 80 de `simidat-apps` se ejecuta un servidor web Apache. Si tu servi
 
 ### Instalación del contenedor
 
-Ejecuta el contenedor con el identificador que le asignaste en Docker Hu
+Ejecuta el contenedor con el identificador que le asignaste en Docker Hub:
 
 ~~~bash
 docker run -p 6001:80 user/container
@@ -91,5 +91,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUzODIyNjcsMTgzMTE1NzQ2N119
+eyJoaXN0b3J5IjpbLTE1NTAyOTk5MjMsMTgzMTE1NzQ2N119
 -->
