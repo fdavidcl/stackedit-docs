@@ -1,10 +1,8 @@
-**WIP**
-
 # Uso de Docker en el servidor `simidat-apps`
 
 ## Instalación de Docker en local
 
-Lo primero es instalar Docker. Para ello, podemos comprobar si `docker`o `docker-ce` ya están disponibles desde nuestro gestor de paquetes favorito (`apt`, `pacman`, `dnf`...) o bien seguir [las instrucciones oficiales](https://www.docker.com/community-edition).
+Lo primero es instalar Docker en nuestro ordenador personal. Para ello, podemos comprobar si `docker`o `docker-ce` ya están disponibles desde nuestro gestor de paquetes favorito (`apt`, `pacman`, `dnf`...) o bien seguir [las instrucciones oficiales](https://www.docker.com/community-edition).
 
 Una vez instalado, podemos comprobar que la instalación es correcta ejecutando
 ~~~bash
@@ -39,7 +37,7 @@ CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-P", "80"]
 
 En [Docker Hub](https://hub.docker.com/explore/) podéis encontrar una lista de imágenes oficiales de las que partir. En GitHub se pueden encontrar Dockerfiles personalizados para lanzar todo tipo de servicios.
 
-Una vez escrito el Dockerfile, nos situamos con la terminal en el directorio donde se ha creado y 
+Una vez escrito el Dockerfile, nos situamos con la terminal en el directorio donde se ha creado y ejecutamos:
 
 ~~~bash
 docker build -t mi_container .
@@ -47,6 +45,8 @@ docker run -p 8080:80 mi_container
 ~~~
 
 ## Carga del contenedor a Docker Cloud
+
+
 
 ~~~bash
 docker build -t user/container:latest .
@@ -85,5 +85,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1NzUyMDAxLDE4MzExNTc0NjddfQ==
+eyJoaXN0b3J5IjpbMTk2MDU3MTk3MiwxODMxMTU3NDY3XX0=
 -->
