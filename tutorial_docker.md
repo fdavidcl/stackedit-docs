@@ -44,9 +44,11 @@ docker build -t mi_container .
 docker run -p 8080:80 mi_container
 ~~~
 
+La opción `-p` permite redirigir el puerto 8080 del anfitrión
+
 ## Carga del contenedor a Docker Cloud
 
-
+Tras personalizar nuestro Dockerfile y comprobar su funcionamiento
 
 ~~~bash
 docker build -t user/container:latest .
@@ -85,5 +87,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDU3MTk3MiwxODMxMTU3NDY3XX0=
+eyJoaXN0b3J5IjpbLTExMzAzMjI4MTMsMTgzMTE1NzQ2N119
 -->
