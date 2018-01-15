@@ -82,7 +82,7 @@ Ejecuta el contenedor con el identificador que le asignaste en Docker Hub:
 docker run -p 6001:80 user/container
 ~~~
 
-Para que se ejecute al arranque, será necesario un script de initrd (guardado en :
+Para que se ejecute al arranque, será necesario un script de initrd (guardado en `/etc/init.d/` con permisos de ejecución y enlazado desde `/etc/rc6.d/`):
 
 ~~~bash
 #!/bin/sh
@@ -91,6 +91,8 @@ su miusuario -c 'docker run -p 6001:80 user/container'
 
 ### Actualizaciones
 
+Para actualizar tu contenedor, súbelo de nuevo a Docker Hub y descárgalo a 
+
 ~~~bash
 docker pull user/container
 docker ps # consulta el id de tu contenedor
@@ -98,5 +100,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkxODAxNDgsMTgzMTE1NzQ2N119
+eyJoaXN0b3J5IjpbNzY5OTM1NzYyLDE4MzExNTc0NjddfQ==
 -->
