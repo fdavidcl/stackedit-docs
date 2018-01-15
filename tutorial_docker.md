@@ -91,7 +91,7 @@ su miusuario -c 'docker run -p 6001:80 user/container'
 
 ### Actualizaciones
 
-Para actualizar tu contenedor, súbelo de nuevo a Docker Hub y descárgalo a `simidat-apps` con los siguie
+Para actualizar tu contenedor, súbelo de nuevo a Docker Hub y descárgalo a `simidat-apps` con los siguientes coman
 
 ~~~bash
 docker pull user/container
@@ -100,5 +100,5 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYzMzgzMzYsMTgzMTE1NzQ2N119
+eyJoaXN0b3J5IjpbLTE0NzM4MDQ3MDIsMTgzMTE1NzQ2N119
 -->
