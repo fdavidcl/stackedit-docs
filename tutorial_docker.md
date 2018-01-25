@@ -50,7 +50,7 @@ La opción `-p` permite redirigir el puerto 8080 del anfitrión al 80 del conten
 
 Tras personalizar nuestro Dockerfile y comprobar su funcionamiento, lo subimos a Docker Hub para acceder a él desde `simidat-apps`.
 
-**Importante**: Es necesaria una cuenta de Docker y haber iniciado sesión con
+**Importante**: Es necesaria una cuenta de Docker y haber iniciado sesión con `docker login`.
 
 ~~~bash
 docker build -t user/container:latest .
@@ -102,6 +102,6 @@ docker stop <id>
 docker run -p 6001:80 user/container
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODYyNzQ4MSwtODAwMzM0MjUyLDE4Mz
+eyJoaXN0b3J5IjpbLTI2MzcyNTg4NiwtODAwMzM0MjUyLDE4Mz
 ExNTc0NjddfQ==
 -->
