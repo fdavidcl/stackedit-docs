@@ -10,26 +10,26 @@ The set of evaluation metrics included in mldr has been accumulating issues and 
 
 ## Treatment of undefined values in metrics
 
-Several performance metrics calculate divisions which can lead to undefined results. For example, 
+Several performance metrics calculate divisions which can lead to undefined results. For example, looking at the clasdefinition of Precision
 
 With the aim of facilitating experimentation with different classifiers among diverse platforms, we have provided parameters that customize the behavior of performance metrics when certain values cannot be calculated (e.g. divisions by zero). In particular, mldr mimics the behavior of MULAN metrics by default, but other options are available. Let's look at some examples:
 
 ~~~R
 true_labels <- matrix(c(
-1,1,1,
-0,0,0,
-1,0,0,
-1,1,1,
-0,0,0,
-1,0,0
+  1,1,1,
+  0,0,0,
+  1,0,0,
+  1,1,1,
+  0,0,0,
+  1,0,0
 ), ncol = 3, byrow = TRUE)
 predicted_labels <- matrix(c(
-1,1,1,
-0,0,0,
-1,0,0,
-1,1,0,
-1,0,0,
-0,1,0
+  1,1,1,
+  0,0,0,
+  1,0,0,
+  1,1,0,
+  1,0,0,
+  0,1,0
 ), ncol = 3, byrow = TRUE)
 
 # strategies for undefined values: "diagnose", "ignore", "na"
@@ -54,5 +54,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTA5NDczOV19
+eyJoaXN0b3J5IjpbLTE0NTA3NDYwMzddfQ==
 -->
