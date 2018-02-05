@@ -51,9 +51,9 @@ The third example is the custom approach: you can provide a function accepting 4
 
 ## Improvements on read and write of ARFF files
 
-The parser for ARFF files is now more robust, including support for single-quoted and double-quoted attributes, as well as a negative amount of labels in the MEKA header (indicating labels are at the end of the attribute list). Additionally, the user can now choose to read categorical attributes as factors (passin
+The parser for ARFF files is now more robust, including support for single-quoted and double-quoted attributes, as well as a negative amount of labels in the MEKA header (indicating labels are at the end of the attribute list). Additionally, the user can now choose to read categorical attributes as factors (passing the 
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUyMDQ1NTZdfQ==
+eyJoaXN0b3J5IjpbLTk2NTM4MzY1Ml19
 -->
