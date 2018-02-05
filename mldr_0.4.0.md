@@ -44,7 +44,7 @@ fmeasure(
 )
 ~~~
 
-In the first example, we are using one of mldr's built-in strategies to treat undefined values. The `"diagnose"` strategy is the default behavior, and assigns undefined values a replacing value of 1 or 0 according to the accuracy of the prediction (whether no labels were predicted for an instance with no relevant labels). On the contrary, `"ignore"` would not count those cases for the averaging process . 
+In the first example, we are using one of mldr's built-in strategies to treat undefined values. The `"diagnose"` strategy is the default behavior, and assigns undefined values a replacing value of 1 or 0 according to the accuracy of the prediction (whether no labels were predicted for an instance with no relevant labels). On the contrary, `"ignore"` would not count those cases for the averaging process (which . 
 
 ## Improvements on read and write of ARFF files
 
@@ -52,5 +52,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA4MDEyNDddfQ==
+eyJoaXN0b3J5IjpbMTYzNTUxNTgxNF19
 -->
