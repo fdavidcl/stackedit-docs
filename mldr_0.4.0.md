@@ -11,7 +11,29 @@ The set of evaluation metrics included in mldr has been accumulating issues and 
 With the aim of facilitating experimentation with different classifiers among diverse platforms, we have provided parameters that customize the behavior of performance metrics when certain values cannot be calculated (e.g. divisions by zero). In particular, mldr mimics the behavior of MULAN metrics by default, but other options are available. Let's look at some examples:
 
 ~~~R
+true_labels <- matrix(c(
+1,1,1,
+0,0,0,
+1,0,0,
+1,1,1,
+0,0,0,
+1,0,0
+), ncol = 3, byrow = TRUE)
+predicted_labels <- matrix(c(
+1,1,1,
+0,0,0,
+1,0,0,
+1,1,0,
+1,0,0,
+0,1,0
+), ncol = 3, byrow = TRUE)
 
+precision(true_labels, predicted_labels, undefined_value = "diagnose")
+macro_recall(true_labels, predicted_labels, undefined_value = 0)
+macro_fmeasure(
+  true_labels, predicted_labels,
+  undefined_value = function(tp, fp, tn, fn) as.numeric(fp == 0 && fn == 0)
+)
 ~~~
 
 ## Improvements on read and write of ARFF files
@@ -20,5 +42,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDg2MTQzNF19
+eyJoaXN0b3J5IjpbLTE1Njk5MzQ2MjJdfQ==
 -->
