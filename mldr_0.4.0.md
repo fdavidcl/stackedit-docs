@@ -2,7 +2,10 @@
 title: "mldr 0.4: update now!"
 ---
 
-We've just released version 0.4 of mldr. Here's a brief look at the changes.
+We've just released version 0.4 of mldr. Here's a brief look at the changes. Don't forget to update!
+~~~R
+update.packages("mldr")
+~~~
 
 ## Reimplementation of evaluation metrics
 
@@ -57,5 +60,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out [mldr.datasets](https://github.com/fcharte/mldr.datasets), which is able to export to a variety of other formats and provides more options.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODMyNDMxMl19
+eyJoaXN0b3J5IjpbLTk2ODM3NDU1Ml19
 -->
