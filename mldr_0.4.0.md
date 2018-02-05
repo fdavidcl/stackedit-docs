@@ -30,15 +30,19 @@ predicted_labels <- matrix(c(
 
 # strategies for undefined values: "diagnose", "ignore", "na"
 precision(true_labels, predicted_labels, undefined_value = "diagnose")
+
 # single value to replace undefined values: e.g. 0, 1
 macro_recall(true_labels, predicted_labels, undefined_value = 0)
+
 # custom strategy for undefined values: a function accepting 
-# 
+# 4 integers (TP, FP, TN, FN)
 macro_fmeasure(
   true_labels, predicted_labels,
-  undefined_value = function(tp, fp, tn, fn) as.numeric(fp == 0 & fn == 0)
+  undefined_value = function(tp, fp, tn, fn) as.numeric(fp == 0 && fn == 0)
 )
 ~~~
+
+In the first example, we are using one of mldr's built-in strategies to treat undefined values.
 
 ## Improvements on read and write of ARFF files
 
@@ -46,5 +50,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcwNjc1NTJdfQ==
+eyJoaXN0b3J5IjpbMTg1NjY4MzA0NF19
 -->
