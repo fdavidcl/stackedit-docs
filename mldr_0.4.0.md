@@ -8,6 +8,10 @@ We've just released version 0.4 of mldr. Here's a brief look at the changes.
 
 The set of evaluation metrics included in mldr has been accumulating issues and bug reports in the last months. This fact has encouraged us to fully revise and reimplement these metrics. The new implementations have been thoroughly tested and compared to other in different libraries.
 
+## Treatment of undefined values in metrics
+
+Several performance metrics calculate divisions which can lead to undefined results. For example, 
+
 With the aim of facilitating experimentation with different classifiers among diverse platforms, we have provided parameters that customize the behavior of performance metrics when certain values cannot be calculated (e.g. divisions by zero). In particular, mldr mimics the behavior of MULAN metrics by default, but other options are available. Let's look at some examples:
 
 ~~~R
@@ -50,5 +54,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjY4MzA0NF19
+eyJoaXN0b3J5IjpbMTE1NTA5NDczOV19
 -->
