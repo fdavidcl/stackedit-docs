@@ -1,5 +1,5 @@
 ---
-title: "Improvements on evaluation metrics and "
+title: "Improvements on evaluation metrics and read/write in mldr 0.4"
 ---
 
 We've just released version 0.4 of mldr. Here's a brief look at the changes. Don't forget to update!
@@ -60,5 +60,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out [mldr.datasets](https://github.com/fcharte/mldr.datasets), which is able to export to a variety of other formats and provides more options.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTYxODkzOV19
+eyJoaXN0b3J5IjpbLTY3MzM4ODEyOV19
 -->
