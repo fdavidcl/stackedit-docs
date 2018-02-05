@@ -47,7 +47,7 @@ In the first example, we are using one of mldr's built-in strategies to treat un
 
 The second example is simple, it replaces any `NA` value with the specified number. A reasonable value can be 0, but this may wrongly penalize the classifier in datasets with very sparse labels.
 
-The third example is the custom approach: you can provide a function accepting 4 integers (TP, FP, TN, FN), which will be called with the true positives, false positive, true negatives and false negatives respectively
+The third example is the custom approach: you can provide a function accepting 4 integers (TP, FP, TN, FN), which will be called when an undefined value is encountered, with the true positives, false positive, true negatives and false negatives respectively. It should return a numeric value (in the range [0, 1] 
 
 ## Improvements on read and write of ARFF files
 
@@ -55,5 +55,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU3ODgxM119
+eyJoaXN0b3J5IjpbMTQwMjQ1NzkxOF19
 -->
