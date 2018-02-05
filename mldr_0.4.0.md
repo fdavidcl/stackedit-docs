@@ -32,9 +32,11 @@ predicted_labels <- matrix(c(
 precision(true_labels, predicted_labels, undefined_value = "diagnose")
 # single value to replace undefined values: e.g. 0, 1
 macro_recall(true_labels, predicted_labels, undefined_value = 0)
+# custom strategy for undefined values: a function accepting 
+# 
 macro_fmeasure(
   true_labels, predicted_labels,
-  undefined_value = function(tp, fp, tn, fn) as.numeric(fp == 0 && fn == 0)
+  undefined_value = function(tp, fp, tn, fn) as.numeric(fp == 0 & fn == 0)
 )
 ~~~
 
@@ -44,5 +46,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzkzMjc5Ml19
+eyJoaXN0b3J5IjpbLTE0MjcwNjc1NTJdfQ==
 -->
