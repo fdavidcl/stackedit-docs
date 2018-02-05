@@ -55,7 +55,7 @@ The third example is the custom approach: you can provide a function accepting 4
 
 The parser for ARFF files is now more robust, including support for single-quoted and double-quoted attributes, as well as a negative amount of labels in the MEKA header (indicating labels are at the end of the attribute list). Additionally, the user can now choose to read categorical attributes as factors (passing the `stringsAsFactors` parameter).
 
-Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
+Exporting to ARFF has seen some improvements as well, but you may want to check out [mldr.datasets](https://github.com/fcharte/mldr.datasets), which is able to export to a variety of other formats and provides more options.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNDQ2NDYwXX0=
+eyJoaXN0b3J5IjpbLTIzODMyNDMxMl19
 -->
