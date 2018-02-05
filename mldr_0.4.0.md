@@ -8,7 +8,7 @@ We've just released version 0.4 of mldr. Here's a brief look at the changes.
 
 The set of evaluation metrics included in mldr has been accumulating issues and bug reports in the last months. This fact has encouraged us to fully revise and reimplement these metrics. The new implementations have been thoroughly tested and compared to other in different libraries.
 
-Evaluation metrics are now exported individually, but you can keep using the `mldr_evaluate` function for a full report on the person
+Evaluation metrics are now exported individually, but you can keep using the `mldr_evaluate` function for a full report on the perform
 
 ## Treatment of undefined values in metrics
 
@@ -57,5 +57,5 @@ The parser for ARFF files is now more robust, including support for single-quote
 
 Exporting to ARFF has seen some improvements as well, but you may want to check out mldr.datasets, which includes more options and support for other formats.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mzk3NDc5N119
+eyJoaXN0b3J5IjpbLTI0OTY0MDY3NV19
 -->
