@@ -18,7 +18,7 @@ pacman -Sy python-tensorflow-opt-cuda
 sudo pacman -Sy nvidia
 ~~~
 
-If you reboot now, the graphic server may not be able to start. 
+If you reboot now, the graphic server may not be able to start. Try to complete the steps before rebooting or use a text console (e.g. Ctrl-Alt-F2) to do so.
 
 ## Step 3. Tell Xorg to use intel
 
@@ -60,6 +60,8 @@ EndSection
 
 [[source](https://gist.github.com/alexlee-gk/76a409f62a53883971a18a11af93241b)]
 
+If you reboot now, Intel graphics should 
+
 ## Step 4. Recover GLX capabilities
 
 GLX may be broken (you can test with `glxgears`) if you don't have bumblebee installed:
@@ -70,5 +72,5 @@ sudo pacman -Sy bumblebee
 
 [[source](https://bbs.archlinux.org/viewtopic.php?pid=1476069#p1476069)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDI4MTA0Ml19
+eyJoaXN0b3J5IjpbNjU0NDYzMjI0XX0=
 -->
