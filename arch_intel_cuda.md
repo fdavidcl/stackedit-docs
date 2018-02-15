@@ -52,9 +52,11 @@ Section "Screen"
 EndSection
 ~~~
 
-## Step -1
+## Step 4. Recover GLX capabilities
 
-Install bumblebee
+~~~
+sudo pacman -Sy bumblebee
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzU4MTk0MV19
+eyJoaXN0b3J5IjpbODY2NjE4NDgxXX0=
 -->
