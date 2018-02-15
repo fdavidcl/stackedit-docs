@@ -6,6 +6,12 @@
 sudo pacman -Sy cuda
 ~~~
 
+If you want Tensorflow:
+
+~~~
+pacman -Sy python-tensorflow-opt-cuda
+~~~
+
 ## Step 2. Install nvidia proprietary driver
 
 ~~~
@@ -56,5 +62,5 @@ EndSection
 sudo pacman -Sy bumblebee
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzk2NDQyMF19
+eyJoaXN0b3J5IjpbNzA1NDc4NTBdfQ==
 -->
