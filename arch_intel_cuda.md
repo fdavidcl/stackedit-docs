@@ -60,7 +60,7 @@ EndSection
 
 [[source](https://gist.github.com/alexlee-gk/76a409f62a53883971a18a11af93241b)]
 
-If you reboot now, Intel graphics should be working but applications which need OpenGL may not work (light
+If you reboot now, Intel graphics should be working but applications which need OpenGL may not work (lightdm may be broken as wele
 
 ## Step 4. Recover GLX capabilities
 
@@ -72,5 +72,5 @@ sudo pacman -Sy bumblebee
 
 [[source](https://bbs.archlinux.org/viewtopic.php?pid=1476069#p1476069)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Mjc3MjEzOV19
+eyJoaXN0b3J5IjpbLTcxNTI4MzM5Ml19
 -->
