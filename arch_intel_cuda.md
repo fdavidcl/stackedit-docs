@@ -2,7 +2,7 @@
 
 Mandatory disclaimers:
 - Your mileage may vary
-- I am actur
+- I am actually 
 
 ## Step 1. Install CUDA
 
@@ -78,5 +78,5 @@ sudo pacman -Sy bumblebee
 
 [[source](https://bbs.archlinux.org/viewtopic.php?pid=1476069#p1476069)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU1OTI5NzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjc2NTc3MzBdfQ==
 -->
