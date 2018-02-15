@@ -3,7 +3,7 @@
 Mandatory disclaimers:
 - Your mileage may vary
 - I am actually running Antergos
-- My primary objective here was to run Tensorflow on the GPU, but this should be a starting point for running other 
+- My primary objective here was to run Tensorflow on the GPU, but this should be a starting point for running other applications 
 
 ## Step 1. Install CUDA
 
@@ -79,5 +79,5 @@ sudo pacman -Sy bumblebee
 
 [[source](https://bbs.archlinux.org/viewtopic.php?pid=1476069#p1476069)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY1NTAyNzRdfQ==
+eyJoaXN0b3J5IjpbMTAyOTg1NjY1NV19
 -->
