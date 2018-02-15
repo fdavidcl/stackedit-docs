@@ -56,7 +56,7 @@ Section "Screen"
 EndSection
 ~~~
 
-Credits: [
+Credits: [https://gist.github.com/alexlee-gk/76a409f62a53883971a18a11af93241b
 
 ## Step 4. Recover GLX capabilities
 
@@ -66,5 +66,5 @@ GLX may be broken (you can test with `glxgears`) if you don't have bumblebee ins
 sudo pacman -Sy bumblebee
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzUxNjc5OV19
+eyJoaXN0b3J5IjpbLTg2ODIyNDkzXX0=
 -->
