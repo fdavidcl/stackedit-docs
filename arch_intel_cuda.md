@@ -58,11 +58,11 @@ EndSection
 
 ## Step 4. Recover GLX capabilities
 
-GLX will be broken (you can test with glxge if you don't have bumblebee installed:
+GLX will be broken (you can test with glxgears) if you don't have bumblebee installed:
 
 ~~~
 sudo pacman -Sy bumblebee
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE5MzEyNjJdfQ==
+eyJoaXN0b3J5IjpbMTc3MzYwMzA5OV19
 -->
