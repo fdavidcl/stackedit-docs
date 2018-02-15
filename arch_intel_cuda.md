@@ -6,7 +6,7 @@
 sudo pacman -Sy cuda
 ~~~
 
-If you want Tensorflow:
+If you want Tensorflow to work on top of CUDA:
 
 ~~~
 pacman -Sy python-tensorflow-opt-cuda
@@ -62,5 +62,5 @@ EndSection
 sudo pacman -Sy bumblebee
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NDc4NTBdfQ==
+eyJoaXN0b3J5IjpbLTc1OTk3OTg1MF19
 -->
