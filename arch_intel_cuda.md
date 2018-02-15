@@ -1,7 +1,7 @@
 # Using CUDA without enabling nvidia graphics on Arch Linux
 
 Mandatory disclaimers:
-- 
+- Your m
 
 ## Step 1. Install CUDA
 
@@ -77,5 +77,5 @@ sudo pacman -Sy bumblebee
 
 [[source](https://bbs.archlinux.org/viewtopic.php?pid=1476069#p1476069)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTQxOTk5XX0=
+eyJoaXN0b3J5IjpbMTM1MTQ2MTkwM119
 -->
