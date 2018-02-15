@@ -12,6 +12,8 @@ If you want Tensorflow to work on top of CUDA:
 pacman -Sy python-tensorflow-opt-cuda
 ~~~
 
+Right now Tensorflow will fall back to CPU since the nvidia driver will not be found.
+
 ## Step 2. Install nvidia proprietary driver
 
 ~~~
@@ -72,5 +74,5 @@ sudo pacman -Sy bumblebee
 
 [[source](https://bbs.archlinux.org/viewtopic.php?pid=1476069#p1476069)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk0MjA5NDBdfQ==
+eyJoaXN0b3J5IjpbMTAyMDE4MDM4MF19
 -->
