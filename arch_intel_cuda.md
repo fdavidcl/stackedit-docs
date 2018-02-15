@@ -56,6 +56,8 @@ Section "Screen"
 EndSection
 ~~~
 
+Credits: [
+
 ## Step 4. Recover GLX capabilities
 
 GLX may be broken (you can test with `glxgears`) if you don't have bumblebee installed:
@@ -64,5 +66,5 @@ GLX may be broken (you can test with `glxgears`) if you don't have bumblebee ins
 sudo pacman -Sy bumblebee
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2MzQ4MDAwXX0=
+eyJoaXN0b3J5IjpbMTc3NzUxNjc5OV19
 -->
