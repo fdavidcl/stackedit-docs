@@ -58,9 +58,11 @@ EndSection
 
 ## Step 4. Recover GLX capabilities
 
+GLX will be broken (you can te if you don't have bumblebee installed:
+
 ~~~
 sudo pacman -Sy bumblebee
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTk3OTg1MF19
+eyJoaXN0b3J5IjpbLTE3MzYyMjI0ODBdfQ==
 -->
