@@ -11,7 +11,7 @@ You'll need a domain name for this. There are free domains available in certain 
 
 Most of this process is just following Mastodon's own [Docker guide](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Docker-Guide.md). I used version 2.3.0 for this, so the process may be different for other versions.
 
-**Disclaimer**: Trust your own common sense 
+**Disclaimer**: Trust your own common sense than 
 
 1. Set up a single 5$ droplet in your DO account (if you are not yet an user you can use this link to get 10$ credit: <https://m.do.co/c/ca70d8a84d85>). Throw your public SSH key in there and use its IP address to login: `ssh root@[ip-address]`. You can also set up your domain so that it points to DO's nameservers and redirect to your droplet.
 2. `apt install docker.io nginx letsencrypt`
@@ -64,5 +64,5 @@ docker logs mastodon_web_1
 docker-compose run --rm web rake mastodon:confirm_email USER_EMAIL=[your-email]
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE1MDgwOTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMTEyNjM2MDddfQ==
 -->
