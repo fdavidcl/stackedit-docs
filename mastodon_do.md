@@ -1,7 +1,7 @@
 # Deploying Mastodon on a single DigitalOcean droplet
 
 ## What happened
-I bought a super cheap domain with a cool name. I had to put something there, so why not Mastodon? I had a 10$ coupon from DigitalOcean so I could try it for free for a month or two.
+I bought a super cheap domain with a [cool name](https://quotient.space). I had to put something there, so why not Mastodon? I had a 10$ coupon from DigitalOcean so I could try it for free for a month or two.
 
 ## Prerequisites
 
@@ -64,5 +64,5 @@ docker logs mastodon_web_1
 docker-compose run --rm web rake mastodon:confirm_email USER_EMAIL=[your-email]
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg4OTczNzhdfQ==
+eyJoaXN0b3J5IjpbMzAwMjU2Nzk1XX0=
 -->
