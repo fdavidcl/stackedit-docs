@@ -55,7 +55,8 @@ If assets compilation didn't work, you can try again with
 docker-compose run --rm web rake assets:precompile
 ~~~
 
-If creating the user didn't work, try adding a new user, locating the password reset token in the logs (
+If creating the user didn't work, try adding a new user, locating the password reset token in the logs (then navigating to `example.com/auth/password/edit?reset_password_token=[your-token]` to create a password) and lastly confirming the email address:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg1MTAzNTddfQ==
+eyJoaXN0b3J5IjpbNzYwMzEwMDM5XX0=
 -->
