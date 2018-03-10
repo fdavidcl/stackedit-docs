@@ -56,7 +56,11 @@ docker-compose run --rm web rake assets:precompile
 ~~~
 
 If creating the user didn't work, try adding a new user, locating the password reset token in the logs (then navigating to `example.com/auth/password/edit?reset_password_token=[your-token]` to create a password) and lastly confirming the email address:
-
+~~~sh
+docker-compose run --rm web rake mastodon:add_user
+docker logs mastodon_web_1
+docker-compose run --rm web rake mastodon:confirm_email USER_EMAIL=[your-email]
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwMzEwMDM5XX0=
+eyJoaXN0b3J5IjpbMTM5NzI2NTAxOF19
 -->
