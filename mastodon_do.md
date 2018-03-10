@@ -49,7 +49,10 @@ Most of this process is just following Mastodon's own [Docker guide](https://git
 
 ## Useful stuff
 
-
+If assets compilation didn't work, you can try again with
+~~~sh
+docker-compose run --rm web rake assets:precompile
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NzY0NjkyMl19
+eyJoaXN0b3J5IjpbLTk3MzU4OTg2OF19
 -->
