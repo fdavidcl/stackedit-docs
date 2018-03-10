@@ -47,7 +47,9 @@ Most of this process is just following Mastodon's own [Docker guide](https://git
 9. Follow the nginx and Let's Encrypt sections of the [production guide](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Production-guide.md#nginx-configuration).
 10. If all went well you should be able to see your new Mastodon instance when you visit your domain.
 
-## Useful s
+## Useful stuff
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Nzc0MjI4N119
+eyJoaXN0b3J5IjpbMTI4NzY0NjkyMl19
 -->
