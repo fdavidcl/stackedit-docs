@@ -32,7 +32,7 @@ Most of this process is just following Mastodon's own [Docker guide](https://git
     ~~~
 
 5. Follow the guide for Docker in Mastodon documentation to clone the repository. Now, `touch .env.production` since docker-compose will not work without it. Follow the guide to get the images.
-6. Check that file permissions are correct. I came across a couple of `Permission denied` errors since some directories in the Docker image were owned by `root` instead of `mastodon`. To check this, login into the web container as root:
+6. Check that file permissions are correct. I came across a couple of `Permission denied` errors since some directories in the Docker container were owned by `root` instead of `mastodon`. To check this, login into the web container as root:
     
     ~~~sh
     docker-compose run --rm -u 0 web bash
@@ -47,5 +47,5 @@ Most of this process is just following Mastodon's own [Docker guide](https://git
 9. Follow the nginx and Let's Encrypt sections of the [production guide](https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Production-guide.md#nginx-configuration).
 10. If all went well you should be able to see your new Mastodon instance when you visit your domain.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTkwNjY2Ml19
+eyJoaXN0b3J5IjpbLTgzNDY2MzkzNl19
 -->
