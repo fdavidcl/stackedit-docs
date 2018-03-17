@@ -63,8 +63,7 @@ Creates a class with getters and setters for the given attributes. Notice that:
 puts %w[such elegant wow].each_with_index.map { |w,i| "#{i}. #{w}" }
 ```
 
-Recorre el array, obtiene un array de strings *índice. elemento* y lo
-imprime.
+Walks through the array, obtains an array of strings *index. element* and prints it on.
 
 -   `%w[]` separa por espacios una tira de palabras
 -   `each_with_index` recorre dando cada elemento e índice
@@ -127,5 +126,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc2NTg5MjRdfQ==
+eyJoaXN0b3J5IjpbLTI0Mzk2ODI1Nl19
 -->
