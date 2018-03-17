@@ -59,12 +59,9 @@ Creates a class with getters and setters for the given attributes. Notice that:
 
 ## Iteration and data structures
 
-``` {.ruby}
+```ruby
 puts %w[such elegant wow].each_with_index.map { |w,i| "#{i}. #{w}" }
 ```
-
-\normalsize
-. . .
 
 Recorre el array, obtiene un array de strings *índice. elemento* y lo
 imprime.
@@ -144,5 +141,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MDM0ODQ2XX0=
+eyJoaXN0b3J5IjpbMTkxNDkyNTQyMF19
 -->
