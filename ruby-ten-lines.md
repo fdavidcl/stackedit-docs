@@ -105,10 +105,10 @@ Assuming the `.neighborhood` returns a collection of possible solutions and thei
 open(DATA.read, "w").write IO.read($0).gsub(/^#' /, "")
 ```
 
-This snippet reads itself (as in, the own program running), uncomments lines marked with `#'` and passes the result through  `Kernel#open`.
-
--   `$0` es el nombre del programa en ejecución
--   `gsub` hace sustitución global
+This snippet reads itself (as in, the own program running), uncomments lines marked with `#'` and passes the result as input to the program started by `Kernel#open`. Notice that:
+-   `$0` is the name of the current program/script.
+-   `gsub` performs global sustitution
+- `Kernel#open` opens read/write pipes 
 
 *La trampa*  La sección de datos de este mismo archivo contiene el
 comando de terminal a ejecutar:
@@ -119,5 +119,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc1MTQ1NjNdfQ==
+eyJoaXN0b3J5IjpbMjI1OTQyMDIxXX0=
 -->
