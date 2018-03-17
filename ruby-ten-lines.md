@@ -108,9 +108,9 @@ open(DATA.read, "w").write IO.read($0).gsub(/^#' /, "")
 This snippet reads itself (as in, the own program running), uncomments lines marked with `#'` and passes the result as input to the program started by `Kernel#open`. Notice that:
 -   `$0` is the name of the current program/script.
 -   `gsub` performs global sustitution
-- `Kernel#open` opens read/write pipes 
+- `Kernel#open` opens read/write pipes with other processes when the "filename" looks like `"|program_name"`.
 
-*La trampa*  La sección de datos de este mismo archivo contiene el
+*The catch*  The program is hidden in the data section of La sección de datos de este mismo archivo contiene el
 comando de terminal a ejecutar:
 
 ```sh
@@ -119,5 +119,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1OTQyMDIxXX0=
+eyJoaXN0b3J5IjpbMjA0OTIwODE0Nl19
 -->
