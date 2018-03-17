@@ -110,8 +110,7 @@ This snippet reads itself (as in, the own program running), uncomments lines mar
 -   `gsub` performs global sustitution
 - `Kernel#open` opens read/write pipes with other processes when the "filename" looks like `"|program_name"`.
 
-*The catch*  The program is hidden in the data section of La sección de datos de este mismo archivo contiene el
-comando de terminal a ejecutar:
+*The catch*  The program is hidden in the data section of the [original script](https://github.com/fdavidcl/ruby-ten-lines/blob/master/slides.rb):
 
 ```sh
 __END__
@@ -119,5 +118,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTIwODE0Nl19
+eyJoaXN0b3J5IjpbOTQ0NTc4NjMyXX0=
 -->
