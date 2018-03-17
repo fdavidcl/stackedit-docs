@@ -67,7 +67,7 @@ Walks through the array, obtains an array of strings *index. element* and prints
 -   `%w[]` splits a list of words by spaces and returns an array.
 -   `each_with_index` iterates giving each element and its index in the collection.
 -   `map` applies a function on each element of a collection and returns the result.
--   `{...}` o `do ... end` denote *blocks*, structures of code which are passed to methods in order to be called 
+-   `{...}` o `do ... end` denote *blocks*, structures of code which are passed to methods in order to be ran from them. Blocks can receive parameters between bars `|a, b|`.
 
 ```ruby
 dot = ->(v1, v2) { v1.zip(v2).reduce(0) { |p, (n, m)| p + n * m } }
@@ -125,5 +125,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg2MjE2ODhdfQ==
+eyJoaXN0b3J5IjpbMTc3MDExODA5Nl19
 -->
