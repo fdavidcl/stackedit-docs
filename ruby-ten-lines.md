@@ -83,15 +83,15 @@ fib = Hash.new { |h, i| h[i] = h[i - 2] + h[i - 1] }.update(0 => 0, 1 => 1)
 ```
 
 Creates a Hash which contains, for each index, the corresponding term of the Fibonacci sequence. Notice that:
--   `Hash` may receive a *default* initialization (usually `nil`). This initialization takes place whenever the us
--   `Hash#update` asigna varios valores a la vez
--   Equivalente a una función recursiva memoizada
+-   `Hash` may receive a *default* initialization (usually `nil`). This initialization takes place whenever the user attempts to access a value which has not been assigned previously.
+-   `Hash#update` assigns several values at a time.
+-   This would be equivalent to a memoized recursive version.
 
 ```ruby
 solution.neighborhood.detect { |attempt, fitness| fitness > @current_fitness }
 ```
 
-Encuentra la primera solución del vecindario que mejora la función
+Assuming tEncuentra la primera solución del vecindario que mejora la función
 rendimiento. Uso real: <https://git.io/vPxQ6>
 
 -   `detect` recibe un predicado y devuelve el primer elemento del array
@@ -122,5 +122,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA1MzkxMTddfQ==
+eyJoaXN0b3J5IjpbLTEwMzYxMzk2MjRdfQ==
 -->
