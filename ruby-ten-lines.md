@@ -82,10 +82,8 @@ Computes the dot product. Example usage: `dot.([1, 2, 3], [-1, 0, 2])`. Notice t
 fib = Hash.new { |h, i| h[i] = h[i - 2] + h[i - 1] }.update(0 => 0, 1 => 1)
 ```
 
-Creates a Hash which contains Crea un Hash que contiene en cada índice el término correspondiente de
-la secuencia de Fibonacci.
-
--   `Hash` tiene una inicialización por defecto (normalmente `nil`)
+Creates a Hash which contains, for each index, the corresponding term of the Fibonacci sequence. Notice that:
+-   `Hash` may receive a *default* initialization (usually `nil`). This initialization takes place whenever the us
 -   `Hash#update` asigna varios valores a la vez
 -   Equivalente a una función recursiva memoizada
 
@@ -124,5 +122,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NTcxNzkwXX0=
+eyJoaXN0b3J5IjpbLTEzOTA1MzkxMTddfQ==
 -->
