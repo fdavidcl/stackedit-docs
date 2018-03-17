@@ -66,8 +66,8 @@ puts %w[such elegant wow].each_with_index.map { |w,i| "#{i}. #{w}" }
 Walks through the array, obtains an array of strings *index. element* and prints it on stdout. Notice that:
 -   `%w[]` splits a list of words by spaces and returns an array.
 -   `each_with_index` iterates giving each element and its index in the collection.
--   `map` aplica una función sobre cada elemento y devuelve el resultado
--   `{...}` o `do ... end` denotan *blocks*
+-   `map` applies a function on each element of a collection and returns the result.
+-   `{...}` o `do ... end` denote *blocks*, structures of code which are passed to methods in order to be called 
 
 ```ruby
 dot = ->(v1, v2) { v1.zip(v2).reduce(0) { |p, (n, m)| p + n * m } }
@@ -125,5 +125,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTkxMzMzMV19
+eyJoaXN0b3J5IjpbLTEwOTg2MjE2ODhdfQ==
 -->
