@@ -75,14 +75,14 @@ dot = ->(v1, v2) { v1.zip(v2).reduce(0) { |p, (n, m)| p + n * m } }
 
 Computes the dot product. Example usage: `dot.([1, 2, 3], [-1, 0, 2])`. Notice that:
 -   Lambda functions are defined with `->`. As opposed to usual functions or methods, Lambdas are objects.
--   `zip` pairs the elements of two or more arrays
--   `reduce` acumula resultados de una función binaria
+-   `zip` pairs the elements of two or more arrays.
+-   `reduce` accumulates results of a binary function.
 
 ```ruby
 fib = Hash.new { |h, i| h[i] = h[i - 2] + h[i - 1] }.update(0 => 0, 1 => 1)
 ```
 
-Crea un Hash que contiene en cada índice el término correspondiente de
+Creates a Hash which contains Crea un Hash que contiene en cada índice el término correspondiente de
 la secuencia de Fibonacci.
 
 -   `Hash` tiene una inicialización por defecto (normalmente `nil`)
@@ -124,5 +124,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTQ5ODIxN119
+eyJoaXN0b3J5IjpbMzg4NTcxNzkwXX0=
 -->
