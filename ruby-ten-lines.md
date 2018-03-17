@@ -91,11 +91,10 @@ Creates a Hash which contains, for each index, the corresponding term of the Fib
 solution.neighborhood.detect { |attempt, fitness| fitness > @current_fitness }
 ```
 
-Assuming the `.neighborhood` returns a collection of possible solutions and their performance (fitness), this finds the first one which improves the current solution. Actual usage: <https://git.io/vPxQ6>
+Assuming the `.neighborhood` returns a collection of possible solutions and their performance (fitness), this finds the first one which improves the current solution. Actual use: <https://git.io/vPxQ6>
 
--   `detect` recibe un predicado y devuelve el primer elemento del array
-    que lo cumple
--   Máxima pendiente? `max_by`
+-   `detect` receives a predicate and returns the first ellement of the collection which verifies it.
+-   If you want to get the best solution in the neighborhood instead, you can use `max_by`
 -   Muchos más métodos de iteración:
     [`Enumerable`](https://ruby-doc.org/core-2.5.0/Enumerable.html)
 
@@ -121,5 +120,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTA3NzQ0Nl19
+eyJoaXN0b3J5IjpbMTE5OTA1MzQyOV19
 -->
