@@ -94,8 +94,8 @@ solution.neighborhood.detect { |attempt, fitness| fitness > @current_fitness }
 Assuming the `.neighborhood` returns a collection of possible solutions and their performance (fitness), this finds the first one which improves the current solution. Actual use: <https://git.io/vPxQ6>
 
 -   `detect` receives a predicate and returns the first ellement of the collection which verifies it.
--   If you want to get the best solution in the neighborhood instead, you can use `max_by`
--   Muchos más métodos de iteración:
+-   If you want to get the best solution in the neighborhood instead, you can use `max_by`.
+-   There is a huge list of iteration methods available in any Ruby collection class:
     [`Enumerable`](https://ruby-doc.org/core-2.5.0/Enumerable.html)
 
 
@@ -120,5 +120,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTA1MzQyOV19
+eyJoaXN0b3J5IjpbLTE2Nzg0Mjc3ODFdfQ==
 -->
