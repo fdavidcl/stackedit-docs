@@ -91,8 +91,7 @@ Creates a Hash which contains, for each index, the corresponding term of the Fib
 solution.neighborhood.detect { |attempt, fitness| fitness > @current_fitness }
 ```
 
-Assuming tEncuentra la primera solución del vecindario que mejora la función
-rendimiento. Uso real: <https://git.io/vPxQ6>
+Assuming the `.neighborhood` returns a collection of possible solutions and their performance (fitness), this finds the first one which improves the current solution. Actual usage: <https://git.io/vPxQ6>
 
 -   `detect` recibe un predicado y devuelve el primer elemento del array
     que lo cumple
@@ -122,5 +121,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYxMzk2MjRdfQ==
+eyJoaXN0b3J5IjpbMTIzNTA3NzQ0Nl19
 -->
