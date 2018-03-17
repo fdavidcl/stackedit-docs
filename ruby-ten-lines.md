@@ -63,10 +63,9 @@ Creates a class with getters and setters for the given attributes. Notice that:
 puts %w[such elegant wow].each_with_index.map { |w,i| "#{i}. #{w}" }
 ```
 
-Walks through the array, obtains an array of strings *index. element* and prints it on.
-
--   `%w[]` separa por espacios una tira de palabras
--   `each_with_index` recorre dando cada elemento e índice
+Walks through the array, obtains an array of strings *index. element* and prints it on stdout. Notice that:
+-   `%w[]` splits a list of words by spaces and returns an array.
+-   `each_with_index` iterates giving each element and its index in the collection.
 -   `map` aplica una función sobre cada elemento y devuelve el resultado
 -   `{...}` o `do ... end` denotan *blocks*
 
@@ -126,5 +125,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0Mzk2ODI1Nl19
+eyJoaXN0b3J5IjpbMTEwOTkxMzMzMV19
 -->
