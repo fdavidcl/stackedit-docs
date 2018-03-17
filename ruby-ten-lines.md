@@ -71,12 +71,9 @@ imprime.
 -   `map` aplica una función sobre cada elemento y devuelve el resultado
 -   `{...}` o `do ... end` denotan *blocks*
 
-``` {.ruby}
+```ruby
 dot = ->(v1, v2) { v1.zip(v2).reduce(0) { |p, (n, m)| p + n * m } }
 ```
-
-\normalsize
-. . .
 
 Uso: `dot.([1, 2, 3], [-1, 0, 2])`
 
@@ -84,12 +81,9 @@ Uso: `dot.([1, 2, 3], [-1, 0, 2])`
 -   `zip` empareja los elementos de dos o más arrays
 -   `reduce` acumula resultados de una función binaria
 
-``` {.ruby}
+```ruby
 fib = Hash.new { |h, i| h[i] = h[i - 2] + h[i - 1] }.update(0 => 0, 1 => 1)
 ```
-
-\normalsize
-. . .
 
 Crea un Hash que contiene en cada índice el término correspondiente de
 la secuencia de Fibonacci.
@@ -98,12 +92,9 @@ la secuencia de Fibonacci.
 -   `Hash#update` asigna varios valores a la vez
 -   Equivalente a una función recursiva memoizada
 
-``` {.ruby}
+```ruby
 solution.neighborhood.detect { |attempt, fitness| fitness > @current_fitness }
 ```
-
-\normalsize
-. . .
 
 Encuentra la primera solución del vecindario que mejora la función
 rendimiento. Uso real: <https://git.io/vPxQ6>
@@ -117,12 +108,9 @@ rendimiento. Uso real: <https://git.io/vPxQ6>
 
 ## I/O
 
-``` {.ruby}
+```ruby
 open(DATA.read, "w").write IO.read($0).gsub(/^#' /, "")
 ```
-
-\normalsize
-. . .
 
 Lee el propio programa, descomenta los comentarios marcados con `#'` y
 pasa el resultado como entrada al programa abierto por `Kernel#open`.
@@ -130,16 +118,14 @@ pasa el resultado como entrada al programa abierto por `Kernel#open`.
 -   `$0` es el nombre del programa en ejecución
 -   `gsub` hace sustitución global
 
-. . .
-
 *La trampa*  La sección de datos de este mismo archivo contiene el
 comando de terminal a ejecutar:
 
-``` {.sh}
+```sh
 __END__
 |pandoc -t beamer -o slides.pdf --pdf-engine=xelatex
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDkyNTQyMF19
+eyJoaXN0b3J5IjpbLTExODc2NTg5MjRdfQ==
 -->
