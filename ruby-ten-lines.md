@@ -73,9 +73,8 @@ Walks through the array, obtains an array of strings *index. element* and prints
 dot = ->(v1, v2) { v1.zip(v2).reduce(0) { |p, (n, m)| p + n * m } }
 ```
 
-Uso: `dot.([1, 2, 3], [-1, 0, 2])`
-
--   Funciones lambda con `->`
+Computes the dot product. Example usage: `dot.([1, 2, 3], [-1, 0, 2])`. Notice that:
+-   Lambda functions are defined with `->`. As opposed to usual functions or methods, Lambdas are objects of the language
 -   `zip` empareja los elementos de dos o más arrays
 -   `reduce` acumula resultados de una función binaria
 
@@ -125,5 +124,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDExODA5Nl19
+eyJoaXN0b3J5IjpbLTU0MjE5MDY4M119
 -->
