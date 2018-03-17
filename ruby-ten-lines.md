@@ -105,8 +105,7 @@ Assuming the `.neighborhood` returns a collection of possible solutions and thei
 open(DATA.read, "w").write IO.read($0).gsub(/^#' /, "")
 ```
 
-Lee el propio programa, descomenta los comentarios marcados con `#'` y
-pasa el resultado como entrada al programa abierto por `Kernel#open`.
+This snippet reads itself (as in, the own program running), uncomments lines marked with `#'` and passes the result through  `Kernel#open`.
 
 -   `$0` es el nombre del programa en ejecución
 -   `gsub` hace sustitución global
@@ -120,5 +119,5 @@ __END__
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg0Mjc3ODFdfQ==
+eyJoaXN0b3J5IjpbLTIwMDc1MTQ1NjNdfQ==
 -->
